@@ -1,7 +1,8 @@
 console.log("Hello!");
 
 var $setColor = $('.set-color'); 
-var $brush = $('.brush');
+//var $brush = $('.brush');
+var $div = $('div')
 
 
 //$brush.append($setColor);
@@ -23,9 +24,10 @@ var backgroundChange = false;
 
 $setColor.on('click', function(){
 	if (!backgroundChange) {
-		$brush.attr('class', 'new-color');
-	} else {
+		$div.attr('class', 'new-color');
 		backgroundChange = true;
-		$brush.removeClass();
+	} else {
+		$div.removeClass();
+		backgroundChange = false;
 	}
 })

@@ -1,13 +1,20 @@
-.brush {
+/*.brush {
+	width: 500px;
+	height: 500px;
+	border-style: solid;
+	background-color: none;
+}*/
+div {
+	width: 500px;
+	height: 500px;
+	border-style: solid;
+	background-color: none;
+}
+
+.new-color {
+	background-color: mistyrose;
 	width: 500px;
 	height: 500px;
 	border-style: solid;
 }
 
-.new-color {
-	background-color: mistyrose;
-}
-
-.set-color {
-
-}
