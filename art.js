@@ -1,11 +1,11 @@
 console.log("Hello!");
 
 var $setColor = $('.set-color'); 
-//var $brush = $('.brush');
+var $input = $('.colorTextInput');
 var $div = $('div')
 
 
-//$brush.append($setColor);
+$div.append($input);
 
 /*
 $setColor.addEventListener('click', changeColor);
